@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+img{
+  height: 20rem;
+  width: 15rem;
+}
+
+body{
+  background: beige;
+  text-align: center;
+}
+
+#new-player-form{
+  position: relative;
+}
+
+form{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  width: 10%;
+  position: relative;
+  right: 45%;
+  left: 45%;
+}
+
+label{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.create-button{
+  margin-top: 1em;
+}
+
+#all-players-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.player{
+  background: rgb(247, 247, 180);
+  border: solid orange;
+  border-radius: 0.5em;
+  margin: 1em;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-variant: small-caps;
+  font-size: 3em;
+}
+
+h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.5em;
+  font-variant: small-caps;
+}
+
+h3{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-variant: small-caps;
+}
+
+h4{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-variant: small-caps;
+}
+
+p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+
+img{
+  border-radius: 1em;
+}
+
+button{
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(255, 186, 58);
+  padding: 0.25em;
+  margin: 0 0 0.25em 0.5em;
+}
